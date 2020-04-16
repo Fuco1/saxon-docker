@@ -6,7 +6,7 @@ WORKDIR /usr/src/Saxon-HE
 
 ### download Saxon
 
-RUN curl http://repo1.maven.org/maven2/net/sf/saxon/Saxon-HE/9.9.1-2/Saxon-HE-9.9.1-2.jar -O
+RUN curl https://repo1.maven.org/maven2/net/sf/saxon/Saxon-HE/9.9.1-2/Saxon-HE-9.9.1-2.jar -O
 
 ### entrypoint
 
